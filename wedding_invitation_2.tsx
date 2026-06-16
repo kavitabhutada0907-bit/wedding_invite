@@ -386,7 +386,7 @@ text-shadow: 0 2px 8px rgba(0,0,0,0.8);
 }
 .scroll-down-btn {
   position: absolute;
-  bottom: 100px;
+  bottom: 130px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 4;
