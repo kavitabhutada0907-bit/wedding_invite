@@ -1,0 +1,63 @@
+
+> dev
+> vite --host 127.0.0.1
+
+[2m5:40:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m Re-optimizing dependencies because vite config has changed
+Port 5173 is in use, trying another one...
+
+  [32m[1mVITE[22m v8.0.16[39m  [2mready in [0m[1m773[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5174[22m/[39m
+[2m6:54:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m7:23:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m7:23:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m7:23:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m7:24:03 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m7:29:06 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m7:29:34 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m7:29:46 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m7:29:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m7:29:55 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m7:30:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m7:30:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m7:37:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m10:04:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m10:09:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m10:11:06 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m10:11:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:08:08 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:08:48 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:19:44 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:20:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:25:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:25:36 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:25:36 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:26:33 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:40:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:45:47 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:48:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:51:48 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:52:48 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mwedding_invitation_2.tsx[22m
+[2m12:54:46 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:55:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m12:55:41 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m1:08:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m1:09:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m1:10:39 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m1:10:40 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m1:16:46 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m1:20:11 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m1:21:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m1:39:14 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m1:45:25 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m1:52:38 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m9:02:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m9:02:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m9:13:02 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m9:15:34 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m9:25:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m9:31:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/wedding_invitation_2.tsx[22m
+[2m9:34:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mwedding-invite/index.html[22m
+[2m9:34:24 PM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: D:/krishnakant_prewedding/Wedding_invite_digital/wedding-invite/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:37:15 PM[22m [36m[1m[vite][22m[39m changed tsconfig file detected: D:/krishnakant_prewedding/Wedding_invite_digital/wedding-invite/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[2m9:37:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mwedding-invite/index.html[22m
