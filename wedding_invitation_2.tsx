@@ -1160,6 +1160,12 @@ export default function WeddingInvitation() {
     }
   };
 
+  const scrollToCountdown = () => {
+    if (countdownSectionRef.current) {
+      countdownSectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   const scrollToNext = () => {
     if (nextSectionRef.current) {
       nextSectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -1292,6 +1298,17 @@ export default function WeddingInvitation() {
               <p className="message-sig">— The Bhutada &amp; Bhujbal Families</p>
             </div>
           </div>
+
+          <button
+            className="scroll-down-btn"
+            type="button"
+            onClick={scrollToCountdown}
+            aria-label="Scroll to next section"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
         </section>
 
         {/* ── COUNTDOWN ── */}
