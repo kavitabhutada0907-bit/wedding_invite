@@ -316,6 +316,8 @@ background-size: cover;
 content: '';
 position: absolute; inset: 0;
 background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%);
+backdrop-filter: saturate(1.3) contrast(1.1) brightness(1.12);
+-webkit-backdrop-filter: saturate(1.3) contrast(1.1) brightness(1.12);
 z-index: 1;
 }
 .hero-content {
@@ -376,6 +378,41 @@ text-shadow: 0 1px 4px rgba(0,0,0,0.8);
 font-family: 'EB Garamond', serif; font-style: italic;
 font-size: 15px; color: #ffffff; line-height: 1.4;
 text-shadow: 0 2px 8px rgba(0,0,0,0.8);
+}
+
+@keyframes scroll-down-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(7px); }
+}
+.scroll-down-btn {
+  position: absolute;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(255,255,255,0.65);
+  background: rgba(0,0,0,0.18);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+}
+.scroll-down-btn svg {
+  animation: scroll-down-bounce 1.8s ease-in-out infinite;
+}
+.scroll-down-btn:hover {
+  background: rgba(0,0,0,0.32);
+  border-color: rgba(255,255,255,0.9);
+}
+.scroll-down-btn:active {
+  transform: translateX(-50%) scale(0.92);
 }
 
 /* ═══════════════════════════════════════
@@ -1090,6 +1127,7 @@ export default function WeddingInvitation() {
   const [confettiActive, setConfettiActive] = useState(false);
   const confettiCanvasRef = useRef(null);
   const countdownSectionRef = useRef(null);
+  const nextSectionRef = useRef(null);
   const time     = useCountdown(WEDDING_DATE.getTime());
   const tlRefs   = useRef([]);
   const revealRefs = useRef([]);
@@ -1119,6 +1157,12 @@ export default function WeddingInvitation() {
       setMusicPlaying(false);
     } else {
       audioRef.current.play().then(() => setMusicPlaying(true)).catch(() => {});
+    }
+  };
+
+  const scrollToNext = () => {
+    if (nextSectionRef.current) {
+      nextSectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
     }
   };
 
@@ -1221,10 +1265,21 @@ export default function WeddingInvitation() {
               </div>
             </div>
           </div>
+
+          <button
+            className="scroll-down-btn"
+            type="button"
+            onClick={scrollToNext}
+            aria-label="Scroll to next section"
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <polyline points="6 9 12 15 18 9" />
+            </svg>
+          </button>
         </section>
 
         {/* ── PARENTS' MESSAGE ── */}
-        <section className="parents-message-section" style={{position:'relative',overflow:'hidden'}}>
+        <section className="parents-message-section" ref={nextSectionRef} style={{position:'relative',overflow:'hidden'}}>
           <div className="section">
             <div className="message-card reveal" ref={el=>revealRefs.current[0]=el}>
               <h2 className="message-heading">Dear Family and Friends</h2>
